@@ -54,6 +54,8 @@
                                                     <input class="form-control">
                                                     <label>Direcci&oacute;n</label>
                                                     <input class="form-control">
+                                                    <label>Barrio</label>
+                                                    <input class="form-control">
                                              </div>
                                             </form>
                                         </div>
@@ -72,14 +74,15 @@
                                  <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
-                                            <th>#Cliente</th>
+                                            <th>Nro</th>
                                             <th>Nombre</th>
                                             <th>Apellido</th>
-                                            <th>Tipo Documento</th>
+                                            <th>Tipo</th>
                                             <th>Documento</th>
                                             <th>Telefono</th>
                                             <th>Mail</th>
                                             <th>Direccion</th>
+                                            <th>Barrio</th>
                                             <th>Accion</th>
                                         </tr>
                                     </thead>
@@ -87,14 +90,15 @@
                                      <tbody>
                                     
                                      <tr class="odd gradeX">
-                                            <td>123</td>
-                                            <td>ENRIQUE</td>
-                                            <td>WIEDENMANN</td>
+                                            <td>34</td>
+                                            <td>Juan</td>
+                                            <td>Garcia</td>
                                             <td>DNI</td>
-                                            <td>33914084</td>
+                                            <td>12569222</td>
                                             <td>4320-5844</td>
-                                            <td>enrique.wiedenmann@gmail.com</td>
-                                            <td>SAN MARTIN 4788 1 RO B</td>
+                                            <td>juangarcia@gmail.com</td>
+                                            <td>Suipacha 750</td>
+                                            <td>Retiro</td>
                                             <td class="center">
                                                 <!--Editar -->
                                                 <a href="editar_registro.php?id=4532">
@@ -108,14 +112,15 @@
                                         </tr>
                                         
                                          <tr class="odd gradeX">
-                                            <td>1</td>
-                                            <td>ENRIQUE</td>
-                                            <td>WIEDENMANN</td>
+                                            <td>45</td>
+                                            <td>Mario</td>
+                                            <td>Perez</td>
                                              <td>DNI</td>
-                                            <td>33914084</td>
+                                            <td>25665555</td>
                                             <td >4320-5844</td>
-                                            <td >enrique.wiedenmann@gmail.com</td>
-                                            <td >SAN MARTIN 4788 1 RO B</td>
+                                            <td >marioperez@netscape.com</td>
+                                            <td >Alvarez Thomas 1270 3ro b</td>
+                                            <td >Saavedra</td>                                            
                                             <td class="center ">
                                                 <!--Editar -->
                                                 <a href="editar_registro.php?id=4532">
@@ -128,14 +133,15 @@
                                             </td>
                                         </tr>
                                          <tr class="odd gradeX">
-                                            <td>1</td>
-                                            <td>ENRIQUE</td>
-                                            <td>WIEDENMANN</td>
+                                            <td>74</td>
+                                            <td>Victor</td>
+                                            <td>Makarius</td>
                                              <td>DNI</td>
-                                            <td>33914084</td>
+                                            <td>10569854</td>
                                             <td >4320-5844</td>
-                                            <td >enrique.wiedenmann@gmail.com</td>
-                                            <td >SAN MARTIN 4788 1 RO B</td>
+                                            <td >victormakarius@lycos.com</td>
+                                            <td >Mexico 2700</td>
+                                            <td >Paternal</td>
                                             <td class="center ">
                                                 <!--Editar -->
                                                 <a href="editar_registro.php?id=4532">
@@ -149,14 +155,15 @@
                                         </tr>
                                         
                                          <tr class="odd gradeX">
-                                            <td>2</td>
-                                            <td>ENRIQUE</td>
-                                            <td>WIEDENMANN</td>
+                                            <td>102</td>
+                                            <td>Fabian</td>
+                                            <td>Fernandez</td>
                                              <td>DNI</td>
                                             <td>33914084</td>
                                             <td >4320-5844</td>
-                                            <td >enrique.wiedenmann@gmail.com</td>
+                                            <td >fabianfernandez@brujula.net</td>
                                             <td >SAN MARTIN 4788 1 RO B</td>
+                                            <td >Retiro</td>
                                             <td class="center ">
                                                 <!--Editar -->
                                                 <a href="editar_registro.php?id=4532">
@@ -169,14 +176,15 @@
                                             </td>
                                         </tr>
                                          <tr class="odd gradeX">
-                                            <td>3</td>
-                                            <td>ENRIQUE</td>
-                                            <td>WIEDENMANN</td>
+                                            <td>103</td>
+                                            <td>Lucrecio</td>
+                                            <td>Marvin</td>
                                              <td>DNI</td>
                                             <td>33914084</td>
                                             <td >4320-5844</td>
-                                            <td >enrique.wiedenmann@gmail.com</td>
+                                            <td >lucriciomarvin@icqmail.com</td>
                                             <td >SAN MARTIN 4788 1 RO B</td>
+                                            <td >Retiro</td>
                                             <td class="center ">
                                                 <!--Editar -->
                                                 <a href="editar_registro.php?id=4532">
@@ -191,13 +199,14 @@
                                         
                                          <tr class="odd gradeX">
                                             <td>4</td>
-                                            <td>ENRIQUE</td>
-                                            <td>WIEDENMANN</td>
+                                            <td>Teo</td>
+                                            <td>Chompiras</td>
                                              <td>DNI</td>
                                             <td>33914084</td>
                                             <td >4320-5844</td>
-                                            <td >enrique.wiedenmann@gmail.com</td>
+                                            <td >teochompiras@patagon.com</td>
                                             <td >SAN MARTIN 4788 1 RO B</td>
+                                            <td >Retiro</td>
                                             <td class="center ">
                                                 <!--Editar -->
                                                 <a href="editar_registro.php?id=4532">

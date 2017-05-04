@@ -42,7 +42,7 @@ font-size: 16px;"> 26 de Mayo de 2017 &nbsp; <a href="#" class="btn btn-danger s
 					<li  >
 					  
 					  
-                        <a  href="tecnico_clientes.php"><i class="fa fa-table fa-3x"></i>Clientes</a>
+                        <a  href="abm_clientes.php"><i class="fa fa-table fa-3x"></i>Clientes</a>
                     </li>
 					
 					

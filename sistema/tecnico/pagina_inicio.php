@@ -43,7 +43,7 @@ font-size: 16px;"> 26 de Mayo de 2017 &nbsp; <a href="#" class="btn btn-danger s
                         <a !class="active-menu" href="hoja_de_ruta.php"> <i class="fa fa-dashboard fa-3x"></i> Hoja de ruta</a>
                     </li>
                       <li>
-                        <a  href="tecnico_clientes.php"><i class="fa fa-desktop fa-3x"></i> Clientes</a>
+                        <a  href="abm_clientes.php"><i class="fa fa-desktop fa-3x"></i> Clientes</a>
                     </li>
                     <li>
                         <a  !class="active-menu" href="tecnico_presupuestos.php"><i class="fa fa-qrcode fa-3x"></i> Presupuestos</a>
